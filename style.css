@@ -1,3 +1,9 @@
+html{
+    overflow: hidden;
+}
+html, body{
+    height: 100%;
+}
 body {
     background-image: url("imagens/wallpaper-de-paisagem-em-design-plano_74890-34.avif");
     background-repeat: no-repeat;
@@ -5,6 +11,29 @@ body {
     background-position: center;
     margin: 0;
 }
-html, body{
-    height: 100%;
+
+h2{
+    color: #fff;
+    text-align: center;
+}
+label,input{
+    display: block;
+}
+label{
+    color: #fff;
+}
+form{
+    background-color:rgb(128 128 128 / 55%);
+    height: 200px;
+    width: 200px;
+    margin: 10% auto;
+    padding: 40px;
+}
+input{
+    padding: 5px;
+    border-radius: 4px;
+}
+input[type='email'], input[type='password']{
+    width: 100%;
+    margin-bottom: 8px;
 }
