@@ -1,0 +1,10 @@
+body {
+    background-image: url("imagens/wallpaper-de-paisagem-em-design-plano_74890-34.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
