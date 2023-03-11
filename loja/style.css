@@ -1,0 +1,26 @@
+.title{
+    text-align: center;
+} 
+ .card {
+    width: 260px;
+    border: 2px gray solid;
+    padding: 16px;
+    float: left;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    height: 300px;
+    margin: 0 auto;
+}
+
+.card .box-price span {
+    display: block;
+}
+
+.card .box-price span.promotional-price {
+    color: blue;
+    font-size: 20px;
+}
