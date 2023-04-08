@@ -1,6 +1,7 @@
 .title{
     text-align: center;
 } 
+
  .card {
     width: 260px;
     border: 2px gray solid;
@@ -14,6 +15,9 @@
 .card img{
     height: 300px;
     margin: 0 auto;
+}
+.card:hover{
+   background-color: rgb(66, 123, 221);
 }
 
 .card .box-price span {

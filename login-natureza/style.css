@@ -1,0 +1,58 @@
+body{
+    background-color: #77b244;
+    background-image: url("imagens/road.jpeg");
+    background-repeat: repeat-x;
+    background-position: right top;
+}
+@keyframes menina-bike {
+    0%{
+        transform: translateX(0);
+        left: -250px;
+    }
+    50%{
+        transform: translateX(0);
+        left: 100%;
+    }
+    50.01%{
+        transform: translateX(0) rotateY(180deg); 
+        left: 110%;
+    }
+    100%{
+        transform: translateX(0) rotateY(180deg); 
+        left: -350px;
+    }
+
+}
+.menina-bike{
+    position: relative;
+    width: 337px;
+    animation: menina-bike 20s linear infinite;
+}
+.dog-skate{
+    position: relative;
+    width: 200px;
+    animation: menina-bike 20s linear infinite;
+}
+.cat{
+    width: 150px;
+    position: relative;
+    top: 200px;
+}
+form{
+    background-color: rgb(255 255 255 / 38%);
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 16px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+html body{
+    font-family: 'Alkatra', cursive;
+}
