@@ -1,0 +1,17 @@
+fieldset{
+    display: flex;
+    flex-direction: column;
+}
+.box-name{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.box-idade{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+}
+.box-space{
+    margin-bottom: 16px;
+}
