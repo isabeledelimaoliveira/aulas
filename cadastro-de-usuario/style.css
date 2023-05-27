@@ -2,12 +2,12 @@ fieldset{
     display: flex;
     flex-direction: column;
 }
-.box-name{
+.box-400{
     display: flex;
     flex-direction: column;
     width: 400px;
 }
-.box-idade{
+.box-50{
     display: flex;
     flex-direction: column;
     width: 50px;

@@ -13,32 +13,32 @@
         <fieldset>
           <legend>Dados do usuário</legend>
           
-          <div class="box-name box-space">
+          <div class="box-400 box-space">
             <label for="">Nome</label>
-          <input type="text" name="nome" id="">
+          <input type="text" name="nome" required>
           </div>
 
-          <div class="box-idade box-space" >
+          <div class="box-50 box-space" >
             <label for="">Idade</label>
-          <input type="number" name="idade" id="">
+          <input type="number" name="idade" required>
           </div>
 
           <div class="box-space">
             <label for="">Estado civil</label>
-            <input type="radio" name="estado-civil" id="">solteiro
-            <input type="radio" name="estado-civil" id="">casado
+            <input type="radio" name="estadoCivil" value="solteiro" required>solteiro
+            <input type="radio" name="estadoCivil" value="casado" required>casado
           </div>
 
 
           <div class="box-space">
             <label for="">Sexo</label>
-          <input type="radio" name="sexo" id="">masculino
-          <input type="radio" name="sexo" id="">feminino
+          <input type="radio" name="sexo" value="M" required>masculino
+          <input type="radio" name="sexo" value="F" required>feminino
           </div>
 
           <div class="box-space">
             <label for="state-select">Selecione um estado:</label>
-          <select id="state-select" name="state">
+          <select id="state-select" name="estado">
             <option value="">-- Selecione --</option>
             <option value="AC">Acre</option>
             <option value="AL">Alagoas</option>
@@ -72,9 +72,34 @@
           </div>   
         
         </fieldset>
+        <fieldset>
+          <legend>
+            Endereço
+          </legend>
+          <div class="box-400 box-space">
+            <label for="">Rua</label>
+          <input type="text" name="rua" required>
+          </div>
+
+          <div class="box-50 box-space">
+            <label for="">Número</label>
+          <input type="number" name="numero" required>
+          </div>
+
+          <div class="box-50 box-space">
+            <label for="">CEP</label>
+          <input type="number" name="cep" required>
+          </div>
+
+
+
+        </fieldset>
+        <input type="submit" value="Salvar">
       </form>
       
 
 
+      <script src="script.js"></script>
 </body>
+
 </html>
