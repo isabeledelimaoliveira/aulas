@@ -14,6 +14,8 @@ label:
 
 
 ## css
+float: serve para controlar o posicionamento
+max-width: largura máxima de um elemento
 
 
 ## Rodar banco
