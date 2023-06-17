@@ -3,7 +3,7 @@ form.onsubmit = function save(event){
 event.preventDefault();
     var usuario = {
         nome: form.nome.value,
-        idade: form.idade.value,
+        dataNascimento: form.dataNascimento.value,
         sexo: form.sexo.value,
         estadoCivil: form.estadoCivil.value,
         estado: form.estado.value,
@@ -16,5 +16,5 @@ fetch('http://localhost:3000/usuarios', {
   body: JSON.stringify(usuario),
   headers: {"Content-type": "application/json; charset=UTF-8"}
 })
-
+alert( "Cadastro realizado com sucesso!")
 }
