@@ -7,6 +7,7 @@
   [Cadastro de usuário](https://isabeledelimaoliveira.github.io/html-e-css/cadastro-de-usuario/),
   [Login da natureza](https://isabeledelimaoliveira.github.io/html-e-css/login-natureza/),
   [Tabela de usuários](https://isabeledelimaoliveira.github.io/html-e-css/tabela-usuarios/).
+  [Tabela de estoque](https://isabeledelimaoliveira.github.io/html-e-css/tabela-estoque-de-produtos/).
 
 ## html
 
