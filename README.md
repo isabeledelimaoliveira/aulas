@@ -27,18 +27,7 @@ form: para criar formularios
 
 label:
 
-  
-  
-  
-
-## css
-
-float: serve para controlar o posicionamento
-
-max-width: largura máxima de um elemento
-
-  
-  
+   
 
 ## Rodar banco
 
@@ -47,7 +36,11 @@ command + j - abre o terminal no vscode
 json-server --watch cadastro-de-usuario/banco.json
 
   
+## css
 
+float: serve para controlar o posicionamento
+
+max-width: largura máxima de um elemento
 display: tem varios mas os elementos costumam ser 'inline' e 'block'
 
   
