@@ -3,11 +3,11 @@
 ## aulas de html e css
 
   ## links das páginas
-  [Login da loja](https://isabeledelimaoliveira.github.io/html-e-css/),
-  [Cadastro de usuário](https://isabeledelimaoliveira.github.io/html-e-css/cadastro-de-usuario/),
-  [Login da natureza](https://isabeledelimaoliveira.github.io/html-e-css/login-natureza/),
-  [Tabela de usuários](https://isabeledelimaoliveira.github.io/html-e-css/tabela-usuarios/).
-  [Tabela de estoque](https://isabeledelimaoliveira.github.io/html-e-css/tabela-estoque-de-produtos/).
+  [Login da loja](https://isabeledelimaoliveira.github.io/aulas/),
+  [Cadastro de usuário](https://isabeledelimaoliveira.github.io/aulas/cadastro-de-usuario/),
+  [Login da natureza](https://isabeledelimaoliveira.github.io/aulas/login-natureza/),
+  [Tabela de usuários](https://isabeledelimaoliveira.github.io/aulas/tabela-usuarios/).
+  [Tabela de estoque](https://isabeledelimaoliveira.github.io/aulas/tabela-estoque-de-produtos/).
 
 ## html
 
