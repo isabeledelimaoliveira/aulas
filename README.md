@@ -40,6 +40,26 @@ variavel do tipo string = texto
 variavel do tipo number = número
 variaveis serve para guarda elementos do mundo real para o mundo da programação
 
+## Tipos de variaveis
+### String
+* .indexOf()
+* .length
+### Number
+### Booleng
+### Object
+### Array (Lista)
+* .forEach 
+* .push()
+* .length
+* .toString()
+* .pop()
+* .find()
+* .indexOf()
+* .sort()
+* .reduce
+
+## Funcão
+
   
 ## css
 
