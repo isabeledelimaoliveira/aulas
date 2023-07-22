@@ -59,7 +59,7 @@ variaveis serve para guarda elementos do mundo real para o mundo da programaçã
 * .reduce
 
 ## Funcão
-
+* .function nome(){}
   
 ## css
 
