@@ -49,10 +49,11 @@ variaveis serve para guarda elementos do mundo real para o mundo da programaçã
 ### Object
 ### Array (Lista)
 * .forEach 
-* .push()
-* .length
-* .toString()
-* .pop()
+* .push() - adiciona um item no final da lista 
+* .unshift - adiciona um item no começo da lista
+* .length - mostra a quantidade de itens da lista
+* .toString() - transforma listas de textos,números e buleanos em texto
+* .pop() - deleta o item do final da lista
 * .find()
 * .indexOf()
 * .sort()
