@@ -1,0 +1,36 @@
+body{
+    background-color: rgba(152, 103, 197, 0.959);
+    color: white;
+}
+.caixa-atendimento{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+
+}
+.caixa-retira-senha, .caixa-chama-senha{
+    max-width: 40%;
+    flex: 1;
+    min-width: 200px;
+    margin-top: 24px;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.caixa-retira-senha{
+    background-color: aquamarine;
+
+}
+.caixa-chama-senha{
+    background-color: blue;
+}
+h1{
+    font-size: 4em;
+}
+button{
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1.5em;
+}

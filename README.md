@@ -8,6 +8,7 @@
   [Login da natureza](https://isabeledelimaoliveira.github.io/aulas/login-natureza/),
   [Tabela de usuários](https://isabeledelimaoliveira.github.io/aulas/tabela-usuarios/).
   [Tabela de estoque](https://isabeledelimaoliveira.github.io/aulas/tabela-estoque-de-produtos/).
+  [Fila de atendimento](https://isabeledelimaoliveira.github.io/aulas/fila-de-atendimento/).
 
 ## html
 
