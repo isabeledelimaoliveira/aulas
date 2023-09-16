@@ -43,21 +43,22 @@ variaveis serve para guarda elementos do mundo real para o mundo da programaçã
 
 ## Tipos de variaveis
 ### String
-* .indexOf()
+* .indexOf()- retorna o primeiro índice em que o elemento pode ser encontrado no array, retorna -1 caso o mesmo não esteja presente.
 * .length
 ### Number
 ### Booleng
-### Object
-### Array (Lista)
+### Object ex. {}
+### Array (Lista) ex. []
 * .forEach 
 * .push() - adiciona um item no final da lista 
 * .unshift - adiciona um item no começo da lista
 * .length - mostra a quantidade de itens da lista
 * .toString() - transforma listas de textos,números e buleanos em texto
 * .pop() - deleta o item do final da lista
-* .find()
-* .indexOf()
-* .sort()
+* .filter()- filtra itens de uma lista
+* .find()- retorna o primeiro item da lista
+* .indexOf()- retorna o primeiro índice em que o elemento pode ser encontrado no array, retorna -1 caso o mesmo não esteja presente.
+* .sort()- para ordena itens da lista ex. ordem alfabetica
 * .reduce
 
 ## Funcão
