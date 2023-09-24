@@ -49,14 +49,14 @@ variaveis serve para guarda elementos do mundo real para o mundo da programaçã
 ### Booleng
 ### Object ex. {}
 ### Array (Lista) ex. []
-* .forEach 
+* .forEach - percorre cada item de uma lista
 * .push() - adiciona um item no final da lista 
 * .unshift - adiciona um item no começo da lista
 * .length - mostra a quantidade de itens da lista
 * .toString() - transforma listas de textos,números e buleanos em texto
 * .pop() - deleta o item do final da lista
 * .filter()- filtra itens de uma lista
-* .find()- retorna o primeiro item da lista
+* .find()- retorna o primeiro item da busca
 * .indexOf()- retorna o primeiro índice em que o elemento pode ser encontrado no array, retorna -1 caso o mesmo não esteja presente.
 * .sort()- para ordena itens da lista ex. ordem alfabetica
 * .reduce

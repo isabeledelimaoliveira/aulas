@@ -74,9 +74,15 @@ function criaCard(roupa) {
     document.getElementById("produtos").appendChild(card)
 }
 
+function pesquisar(event) {
+    event.preventDefault();
+    console.log(event.target.pesquisa.value)
+}
+
+
 window.onload = function () {
     roupas.forEach(roupa => {
         criaCard(roupa);
     });
-
+    document.getElementById("form-pesquisa").addEventListener("submit", pesquisar);
 }
