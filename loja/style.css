@@ -4,6 +4,7 @@
 
  .card {
     width: 260px;
+    height: 390px;
     border: 2px gray solid;
     padding: 16px;
     float: left;
@@ -15,6 +16,7 @@
 .card img{
     height: 300px;
     margin: 0 auto;
+    max-width: 100%;
 }
 .card:hover{
    background-color: rgb(66, 123, 221);
@@ -27,4 +29,8 @@
 .card .box-price span.promotional-price {
     color: blue;
     font-size: 20px;
+}
+.pesquisa {
+    width: 390px;
+    padding: 8px;
 }

@@ -28,6 +28,8 @@ form: para criar formularios
 
 label:
 
+lembrete: proxima aula estrutura condicionais
+
    
 
 ## Rodar banco
@@ -45,6 +47,9 @@ variaveis serve para guarda elementos do mundo real para o mundo da programaçã
 ### String
 * .indexOf()- retorna o primeiro índice em que o elemento pode ser encontrado no array, retorna -1 caso o mesmo não esteja presente.
 * .length
+* .toLowerCase() - deixa as letras de uma string minúscula
+* .toUpperCase() - deixa as letras de uma string maiúscula
+
 ### Number
 ### Booleng
 ### Object ex. {}
