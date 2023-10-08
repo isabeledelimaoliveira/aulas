@@ -28,8 +28,6 @@ form: para criar formularios
 
 label:
 
-lembrete: proxima aula estrutura condicionais
-
    
 
 ## Rodar banco
@@ -65,6 +63,15 @@ variaveis serve para guarda elementos do mundo real para o mundo da programaçã
 * .indexOf()- retorna o primeiro índice em que o elemento pode ser encontrado no array, retorna -1 caso o mesmo não esteja presente.
 * .sort()- para ordena itens da lista ex. ordem alfabetica
 * .reduce
+### Operadores
+* atribuição(=, ++, --)
+* igualdade(== ou ===)
+* desigualdade(!= ou !==)
+* multiplas condições(&& , ||)
+* maior(>)
+* maior igual(>=)
+* menor(<)
+* menor igual(<=)
 
 ## Funcão
 * .function nome(){}
