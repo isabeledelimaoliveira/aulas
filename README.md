@@ -72,6 +72,8 @@ variaveis serve para guarda elementos do mundo real para o mundo da programaçã
 * maior igual(>=)
 * menor(<)
 * menor igual(<=)
+* porcentagem (percent * valor)/100
+* modulo (%)
 
 ## Funcão
 * .function nome(){}
@@ -112,3 +114,5 @@ flex-direction: usado para controlar a direção em que os itens flexíveis são
   
 
 font-size: tamanho da fonte
+
+PROXIMA AULA CRIAR CAIXA DE BANCO PARA SAQUES
