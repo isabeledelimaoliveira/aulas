@@ -1,0 +1,64 @@
+html{
+    font-family: Verdana, Tahoma, sans-serif;
+}
+body{
+    background-color: blueviolet;
+}
+.head{
+    display: flex;
+    background-color: rgb(166, 100, 228);
+    padding: 16px;
+    border-radius: 8px;
+}
+.head .title{
+    color: rgb(46, 3, 86);
+    margin: 0;
+    margin-right: 24px;
+    font-size: 53px;
+}
+
+.head h3{
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+.head h4{
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+form{
+    display: flex;
+    justify-content: space-around;
+}
+.limit-alert{
+    text-align: center;
+    color: rgb(205, 177, 232);
+}
+
+.display-value{
+    background-color: rgb(166, 100, 228);
+    width: 50%;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+   
+}
+.display-value input, .display-value label{
+    padding: 8px;
+    border-radius: 8px;
+    color: rgb(46, 3, 86);
+    font-size: 24px;
+    width: 150px;
+
+}
+
+div.btns-right button, .btns-left button{
+    display: block;
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.notas{
+    color: rgb(46, 3, 86);
+    
+}
