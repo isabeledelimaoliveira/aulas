@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="box">
@@ -22,25 +23,32 @@
     </div>
     <form>
         <div class="btns-left">
-            <button>R$ 20,00</button>
-            <button>R$ 40,00</button>
-            <button>R$ 50,00</button>
-            <button>R$ 100,00</button>
+            <button type="button" onclick="preencheSaque(20)">R$ 20,00</button>
+            <button type="button" onclick="preencheSaque(40)">R$ 40,00</button>
+            <button type="button" onclick="preencheSaque(50)">R$ 50,00</button>
+            <button type="button" onclick="preencheSaque(100)">R$ 100,00</button>
 
         </div>
+       
         <div class="display-value">
+            <div class="display-saldo">
+                <label>Saldo em conta: </label>
+                <input disabled value="1256.00" name="saldo" type="text">
+            </div>
             <label>Valor</label>
-            <input type="number" name="valor">
+            <input name="valorSaque" type="number" >
             <h3 class="notas">Notas disponiveis: R$ 2,00, R$ 5,00, R$ 10,00, R$ 20,00, R$ 50,00, R$ 100,00 e R$ 200,00.</h3>
+            <button class="btn-sacar" type="button" onclick="sacar()">Sacar</button>
         </div>
         <div class="btns-right">
-            <button>R$ 300,00</button>
-            <button>R$ 600,00</button>
-            <button>R$ 900,00</button>
-            <button>R$ 1.200,00</button>
+            <button type="button" onclick="preencheSaque(300)">R$ 300,00</button>
+            <button type="button" onclick="preencheSaque(600)">R$ 600,00</button>
+            <button type="button" onclick="preencheSaque(900)">R$ 900,00</button>
+            <button type="button" onclick="preencheSaque(1200)">R$ 1.200,00</button>
 
 
         </div>
     </form>
+    <script src="script.js"></script>
 </body>
 </html>

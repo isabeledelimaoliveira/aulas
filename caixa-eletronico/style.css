@@ -50,15 +50,23 @@ form{
     width: 150px;
 
 }
+.display-saldo{
+    margin-bottom: 16px;
+}
 
-div.btns-right button, .btns-left button{
+button{
     display: block;
     margin-top: 20px;
     padding: 12px;
     font-size: 18px;
     border-radius: 8px;
 }
+
 .notas{
     color: rgb(46, 3, 86);
     
+}
+.btn-sacar{
+    margin: 0 auto;
+    width: 200px;
 }
