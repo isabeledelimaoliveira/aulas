@@ -40,6 +40,7 @@ json-server --watch cadastro-de-usuario/banco.json
 variavel do tipo string = texto
 variavel do tipo number = número
 variaveis serve para guarda elementos do mundo real para o mundo da programação
+! - Negação de um booleano exemplo : var ativo; if(!ativo)
 
 ## Tipos de variaveis
 ### String
