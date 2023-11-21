@@ -1,0 +1,56 @@
+body{
+    background-color:  rgb(145, 232, 251);
+}
+.calculadora {
+    background-color: black;
+    height: 400px;
+    width: 324px;
+    margin: 0 auto;
+    padding: 36px 28px 16px 28px;
+    border-radius: 16px;
+
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    font-size: 26px;
+    border-radius: 4px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 26px;
+    background-color: rgb(208, 196, 196);
+
+}
+
+.btn-number {
+    margin: 0 auto;
+
+}
+
+button {
+    background-color: rgb(208, 196, 196);
+    height: 53px;
+    width: 70px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 8px;
+
+
+}
+.btn-delete{
+    background-color: red;
+    color: white;
+}
+
+.btn-igual {
+    
+    padding: 4px;
+    height: 70;
+    width: 100%;
+    background-color: red;
+    color: white;
+}
