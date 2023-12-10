@@ -11,25 +11,25 @@
 <body>
     <form action="">
         <div class="calculadora">
-            <input name="conta" type="number">
+            <input id="tela" type="text" class="tela" value="0" readonly />
             <div class="btn-number">
-                <button type="button" onclick="preencheCalculo(7)">7</button>
-                <button type="button">8</button>
-                <button type="button">9</button>
-                <button type="button">/</button>
-                <button type="button">4</button>
-                <button type="button">5</button>
-                <button type="button">6</button>
-                <button type="button">*</button>
-                <button type="button">1</button>
-                <button type="button">2</button>
-                <button type="button">3</button>
-                <button type="button">-</button>
-                <button type="button">.</button>
-                <button type="button">0</button>
-                <button type="button">+</button>
-                <button type="button" class="btn-delete">C</button>
-                <button type="button" class="btn-igual">=</button>
+                <button type="button" onclick="preencheValor(7)">7</button>
+                <button type="button" onclick="preencheValor(8)">8</button>
+                <button type="button" onclick="preencheValor(9)">9</button>
+                <button type="button" onclick="operacao(':')">/</button>
+                <button type="button" onclick="preencheValor(4)">4</button>
+                <button type="button" onclick="preencheValor(5)">5</button>
+                <button type="button" onclick="preencheValor(6)">6</button>
+                <button type="button" onclick="operacao('*')">*</button>
+                <button type="button" onclick="preencheValor(1)">1</button>
+                <button type="button" onclick="preencheValor(2)">2</button>
+                <button type="button" onclick="preencheValor(3)">3</button>
+                <button type="button" onclick="operacao('-')">-</button>
+                <button type="button" onclick="preencheOperador('.')">.</button>
+                <button type="button" onclick="preencheValor(0)">0</button>
+                <button type="button" onclick="operacao('+')">+</button>
+                <button type="button" onclick="limparTela()" class="btn-delete" >C</button>
+                <button type="button" class="btn-igual" onclick="calcula('=')">=</button>
 
             </div>
         </div>

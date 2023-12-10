@@ -1,11 +1,13 @@
-body{
-    background-color:  rgb(145, 232, 251);
+body {
+    background-color: rgb(145, 232, 251);
 }
+
 .calculadora {
     background-color: black;
     height: 400px;
     width: 324px;
     margin: 0 auto;
+    margin-top: 5%;
     padding: 36px 28px 16px 28px;
     border-radius: 16px;
 
@@ -17,7 +19,7 @@ input {
     padding: 10px;
     font-size: 26px;
     border-radius: 4px;
-    text-align: center;
+    text-align: right;
     display: block;
     margin: 0 auto;
     margin-bottom: 26px;
@@ -39,19 +41,21 @@ button {
     padding: 10px;
     margin: 4px;
     border-radius: 8px
-
-
 }
-.btn-delete{
+button:hover{
+    background-color: red;
+}
+
+.btn-delete {
     background-color: red;
     color: white;
 }
 
 .btn-igual {
-    
+
     padding: 4px;
     height: 70;
     width: 100%;
-    background-color: red;
+    background-color: rgb(255, 51, 0);
     color: white;
 }
