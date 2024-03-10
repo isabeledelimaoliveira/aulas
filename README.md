@@ -9,6 +9,9 @@
   [Tabela de usuários](https://isabeledelimaoliveira.github.io/aulas/tabela-usuarios/).
   [Tabela de estoque](https://isabeledelimaoliveira.github.io/aulas/tabela-estoque-de-produtos/).
   [Fila de atendimento](https://isabeledelimaoliveira.github.io/aulas/fila-de-atendimento/).
+  [calculadora](https://isabeledelimaoliveira.github.io/aulas/calculadora/).
+  [caixa-eletronico](https://isabeledelimaoliveira.github.io/aulas/caixa-eletronico/).
+
 
 ## html
 
@@ -41,6 +44,10 @@ variavel do tipo string = texto
 variavel do tipo number = número
 variaveis serve para guarda elementos do mundo real para o mundo da programação
 ! - Negação de um booleano exemplo : var ativo; if(!ativo)
+includes: determina se um conjunto de caracteres que determina se e falso ou verdadeiro.
+split: dividi uma string, em forma de lista.
+
+
 
 ## Tipos de variaveis
 ### String
@@ -63,7 +70,9 @@ variaveis serve para guarda elementos do mundo real para o mundo da programaçã
 * .find()- retorna o primeiro item da busca
 * .indexOf()- retorna o primeiro índice em que o elemento pode ser encontrado no array, retorna -1 caso o mesmo não esteja presente.
 * .sort()- para ordena itens da lista ex. ordem alfabetica
-* .reduce
+* .reduce() serve para reduzir uma lista ex: somar, subtrair.
+* .map() retorna uma lista nova atraves de outra.
+* .splace()
 ### Operadores
 * atribuição(=, ++, --)
 * igualdade(== ou ===)
@@ -78,6 +87,7 @@ variaveis serve para guarda elementos do mundo real para o mundo da programaçã
 
 ## Funcão
 * .function nome(){}
+
   
 ## css
 

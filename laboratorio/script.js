@@ -20,6 +20,7 @@ var listaCarros = [
         cor: "vermelho",
         ano: 2013,
         placa: "hjk4567",
+        valor: 40.000,
     },
     {
         chassi: 5776895,
@@ -27,6 +28,7 @@ var listaCarros = [
         cor: "cinza",
         ano: 2009,
         placa: "hjk6767",
+        valor: 25.000,
     },
     {
         chassi: 57765568,
@@ -34,6 +36,7 @@ var listaCarros = [
         cor: "branco",
         ano: 2012,
         placa: "hbn4567",
+        valor: 30.000,
     },
     {
         chassi: 57778965,
@@ -41,6 +44,7 @@ var listaCarros = [
         cor: "cinza",
         ano: 2022,
         placa: "hjv5867",
+        valor: 40.000,
     }
 ]
 
@@ -54,17 +58,29 @@ var listaCarros = [
 // console.table(buscaCarro)
 // console.log(buscaCarro)
 
-listaCarros.sort((a, b) => a.ano - b.ano); // ordenar numeros
+// listaCarros.sort((a, b) => a.ano - b.ano); // ordenar numeros
 
 //ordenar textos
-listaCarros.sort((a, b) =>{
-    if (a.nome < b.nome) {
-        return -1;
-      }
-      if (a.nome > b.nome) {
-        return 1;
-      }
-      return 0;
-});
+// listaCarros.sort((a, b) =>{
+//     if (a.nome < b.nome) {
+//         return -1;
+//       }
+//       if (a.nome > b.nome) {
+//         return 1;
+//       }
+//       return 0;
+// });
 console.table(listaCarros)
 console.log(listaCarros)
+
+// var somaCarros = listaCarros.reduce(function (total, carro) {
+//     return total + carro.valor;
+// }, 10.000)
+
+// console.log(somaCarros)
+
+var nomesCarros = listaCarros.map(function(carro){
+return carro.nome;
+})
+
+console.log(nomesCarros)
