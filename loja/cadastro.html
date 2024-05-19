@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de produtos</title>
+    <link rel="stylesheet" href="formulario.css">
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script src="banco.js"></script>
+</head>
+
+<body>
+    <form action="">
+        <h1>Cadastro de produtos</h1>
+
+        <fieldset>
+
+            <div class="nome">
+                <label for="">Nome</label>
+                <input type="text" name="nome" required>
+            </div>
+
+            <div class="tamanho">
+                <label for="">Tamanho</label>
+                <input type="text" name="tamanho" required>
+            </div>
+
+            <div class="preco">
+                <label for="">Preço</label>
+                <input type="text" name="preco" required>
+            </div>
+
+            <div class="qtd-estoque">
+                <label for="">Quantidade em estoque</label>
+                <input type="number" name="quantidade" required>
+            </div>
+
+            <div class="imagem-box">
+                <label for="">Imagem</label>
+                <input type="text" name="imagem" required>
+            </div>
+
+            <div class="btn-box">
+                <input class="btn-salvar" type="submit" value="Salvar">
+            </div>
+
+
+        </fieldset>
+
+    </form>
+    <h3>
+        <a href="index.html">Acessar loja</a>
+    </h3>
+    <script src="cadastro.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+body {
+    background-image: url("https://i.pinimg.com/564x/41/a2/04/41a2048db1b38c962cfb7d61519729c9.jpg");
+
+}
+
+form {
+    max-width: 700px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+}
+fieldset div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4px;
+}
+
+.btn-salvar{
+    width: 100px;
+    float: right;
+    margin-top: 19.2px;
+}
+
+.nome{
+    width: 70%;
+}
+
+.tamanho{
+    width: 30%;
+}
+
+.preco{
+    width: 50%;
+
+}
+
+.qtd-estoque{
+    width: 50%;
+
+}
+
+input{
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.btn-box{
+    height: 54.4px;
+    width: 100%;
+    display: block;
+}
+
+.imagem-box{
+    width: 100%;
+}

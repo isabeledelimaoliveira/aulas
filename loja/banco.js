@@ -1,13 +1,12 @@
 // Configuração do Firebase
 const firebaseConfig = {
-    apiKey: "AIzaSyCeFtO9CTO42xVqWCATFGvRRl31ppKsEM4",
-    authDomain: "loja-6a166.firebaseapp.com",
-    databaseURL: "https://loja-6a166-default-rtdb.firebaseio.com",
-    projectId: "loja-6a166",
-    storageBucket: "loja-6a166.appspot.com",
-    messagingSenderId: "275445248327",
-    appId: "1:275445248327:web:20412b645597e122161c62",
-    measurementId: "G-N594L03VHZ"
+    apiKey: "AIzaSyDdjCGjjKwN0c0LMGXcB_N6uwfzymQPUVA",
+    authDomain: "lojaisa-bed62.firebaseapp.com",
+    projectId: "lojaisa-bed62",
+    storageBucket: "lojaisa-bed62.appspot.com",
+    messagingSenderId: "614534537941",
+    appId: "1:614534537941:web:f1ea4528ba1f4fbc34385c",
+    measurementId: "G-B8F1099KPC"
 };
 
 // Inicialize o aplicativo Firebase

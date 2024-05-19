@@ -18,7 +18,7 @@ function criaCard(roupa) {
 
     var price = document.createElement("span");
     price.classList = "promotional-price";
-    price.textContent = "Por R$ " + roupa.preço;
+    price.textContent = "Por R$ " + roupa.preco;
     boxPrice.appendChild(price);
     card.appendChild(boxPrice);
     document.getElementById("produtos").appendChild(card)
@@ -43,4 +43,5 @@ function pesquisar(event) {
 window.onload = function () {
     document.getElementById("form-pesquisa").addEventListener("submit", pesquisar);
     exibirListaRoupas(criaCard);
+  
 }
