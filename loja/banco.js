@@ -32,13 +32,17 @@ function cadastrarProduto(roupa) {
 }
 
 // Função para exibir a lista de roupas
-function exibirListaRoupas(fnCriaCard) {
-    const roupasRef = db.ref('roupasf');
+function exibirListaRoupas(fnCriaCard, palavraChave) {
+    palavraChave=palavraChave.toLowerCase();
+    const roupasRef = db.ref('roupasf')
+    .orderByChild('nome')
+    .startAt(palavraChave)
+    .endAt(palavraChave + '\uf8ff')
 
     // Observa alterações na lista de roupas
     roupasRef.on('value', (snapshot) => {
         const roupas = snapshot.val();
-        document.getElementById("produtos").textContent ="";
+        document.getElementById("produtos").textContent = "";
         for (let key in roupas) {
             const roupa = roupas[key];
             fnCriaCard(roupa);

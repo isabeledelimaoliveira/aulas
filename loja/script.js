@@ -1,5 +1,3 @@
-var filtroProdutos = [];
-
 
 function criaCard(roupa) {
     var card = document.createElement("div");
@@ -21,6 +19,11 @@ function criaCard(roupa) {
     price.textContent = "Por R$ " + roupa.preco;
     boxPrice.appendChild(price);
     card.appendChild(boxPrice);
+
+    var quantidade = document.createElement("p");
+    quantidade.textContent = "quantidade: " + roupa.quantidade;
+    card.appendChild(quantidade);
+
     document.getElementById("produtos").appendChild(card)
 }
 
@@ -29,19 +32,12 @@ function pesquisar(event) {
     console.log(event.target.pesquisa.value)
     var pesquisa = event.target.pesquisa.value;
 
-    filtroProdutos = roupas.filter((roupa) => roupa.nome.toLocaleLowerCase().indexOf(pesquisa.toLocaleLowerCase())!=-1)
-    document.getElementById("produtos").textContent ="";
-    filtroProdutos.forEach(roupa => {
-        criaCard(roupa);
-    });
-
-    if (filtroProdutos.length ==0) {
-        document.getElementById("produtos").textContent ="Produto não encontrado!";
-    }
+    document.getElementById("produtos").textContent = "";
+    exibirListaRoupas(criaCard, pesquisa);
 }
 
 window.onload = function () {
     document.getElementById("form-pesquisa").addEventListener("submit", pesquisar);
-    exibirListaRoupas(criaCard);
-  
+    exibirListaRoupas(criaCard, "");
+
 }

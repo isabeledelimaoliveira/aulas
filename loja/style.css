@@ -1,7 +1,12 @@
 .title{
     text-align: center;
 } 
-
+#produtos{
+    padding: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
  .card {
     width: 260px;
     height: 390px;
@@ -30,7 +35,12 @@
     color: blue;
     font-size: 20px;
 }
+#form-pesquisa{
+    display: flex;
+    justify-content: center;
+}
 .pesquisa {
     width: 390px;
     padding: 8px;
+   
 }
