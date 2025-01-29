@@ -1,13 +1,15 @@
-.title{
+.title {
     text-align: center;
-} 
-#produtos{
+}
+
+#produtos {
     padding: 13px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
- .card {
+
+.card {
     width: 260px;
     height: 390px;
     border: 2px gray solid;
@@ -18,13 +20,14 @@
     flex-direction: column;
 }
 
-.card img{
+.card img {
     height: 300px;
     margin: 0 auto;
     max-width: 100%;
 }
-.card:hover{
-   background-color: rgb(66, 123, 221);
+
+.card:hover {
+    background-color: #548c2f69;
 }
 
 .card .box-price span {
@@ -32,15 +35,17 @@
 }
 
 .card .box-price span.promotional-price {
-    color: blue;
+    color: #104911;
     font-size: 20px;
 }
-#form-pesquisa{
+
+#form-pesquisa {
     display: flex;
     justify-content: center;
 }
+
 .pesquisa {
     width: 390px;
     padding: 8px;
-   
+
 }
